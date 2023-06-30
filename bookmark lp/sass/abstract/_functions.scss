@@ -1,0 +1,9 @@
+@function weight($weight-name) {
+    @return map-get($font-weights , $weight-name );
+}
+
+@mixin flexspacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
